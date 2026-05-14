@@ -1,0 +1,8 @@
+{
+  "name": "governanca-ia",
+  "version": "1.0.2-br",
+  "description": "Triagem de casos de uso de IA contra seu registro, condução de avaliações de impacto (RIPD-IA), revisão de termos de fornecedores de IA quanto a treinamento com dados, responsabilidade e mudança de modelo, e atualização da política de IA contra a prática. Calibrado para LGPD art. 20, PL 2338/2023 e estudos preliminares ANPD/IA.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

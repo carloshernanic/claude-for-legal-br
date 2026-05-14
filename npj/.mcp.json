@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Buscar mensagens, ler canais e localizar discussões no workspace do NPJ."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e recuperar documentos do Google Drive (pastas do NPJ, modelos, atos)."
+    },
+    "Planalto": {
+      "type": "http",
+      "url": "https://www.planalto.gov.br/",
+      "title": "Planalto",
+      "description": "Site oficial da Presidência — texto integral de leis, decretos e Constituição. Fonte primária para CC, CPC, CPP, CLT, CDC, LGPD, ECA, LMP, Lei 8.245/91, Lei 9.099/95, Lei 13.105/2015, Lei 14.181/2021, Lei 13.445/2017, Lei 9.474/97 etc."
+    },
+    "INSS": {
+      "type": "http",
+      "url": "https://www.gov.br/inss/",
+      "title": "INSS",
+      "description": "Instituto Nacional do Seguro Social — benefícios previdenciários (aposentadoria, pensão, auxílio-doença, BPC/LOAS), portal Meu INSS, instruções normativas e atos administrativos."
+    },
+    "Defensoria Pública": {
+      "type": "http",
+      "url": "https://www.anadep.org.br/",
+      "title": "Defensoria Pública",
+      "description": "ANADEP e portais das Defensorias estaduais e DPU — atribuições da Defensoria Pública (LC 80/1994), núcleos especializados, encaminhamentos e atendimento à hipossuficiência (CPC 98-102)."
+    },
+    "JusBrasil": {
+      "type": "http",
+      "url": "https://www.jusbrasil.com.br/",
+      "title": "JusBrasil",
+      "description": "Plataforma de pesquisa jurídica brasileira — jurisprudência (STF, STJ, TST, TRFs, TJs), legislação consolidada, andamento processual, doutrina. Verifique sempre contra fonte primária (Planalto/sites de tribunais)."
+    }
+  },
+  "recommendedCategories": [
+    "gestao-de-casos",
+    "pesquisa-juridica",
+    "jurisprudencia",
+    "oab-cnj",
+    "documentos",
+    "chat"
+  ]
+}

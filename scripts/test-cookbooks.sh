@@ -15,7 +15,7 @@ if ! python3 "$ROOT/scripts/lint-tool-scope.py"; then
   fail=1
 fi
 
-for d in "$ROOT"/managed-agent-cookbooks/*/; do
+for d in "$ROOT"/receitas-agentes/*/; do
   slug=$(basename "$d")
   if ! bash "$ROOT/scripts/deploy-managed-agent.sh" "$slug" --dry-run 2>&1 | tail -n +2 | python3 -c "
 import json,sys

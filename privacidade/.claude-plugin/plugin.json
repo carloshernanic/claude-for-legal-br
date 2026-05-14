@@ -1,0 +1,8 @@
+{
+  "name": "privacidade",
+  "version": "1.0.2-br",
+  "description": "Triagem de atividades de tratamento de dados, geração de RIPD, revisão de contratos de tratamento (controlador/operador), atendimento a requisições de titulares dentro dos prazos da LGPD e monitoramento de drift entre política e prática. Calibrado para Lei 13.709/2018 e Resoluções CD/ANPD.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

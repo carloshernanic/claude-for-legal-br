@@ -1,0 +1,57 @@
+{
+  "_comment_br": "Adaptado para contexto BR: Ironclad/DocuSign/Definely mantidos como integrações globais. Alternativas BR de assinatura eletrônica e gestão contratual: Clicksign, D4Sign, ZapSign, Autentique (todos compatíveis com MP 2.200-2/2001 ICP-Brasil e Lei 14.063/2020), Adobe Sign BR. CLMs nacionais: Lawnix, Linte, Signer, Stilingue/Linker. Quando disponíveis MCPs BR oficiais, substituir/adicionar abaixo. iManage, TopCounsel e Slack mantidos. Substituir Google Drive por SharePoint/OneDrive se o cliente usar Microsoft 365.",
+  "mcpServers": {
+    "Ironclad": {
+      "type": "http",
+      "url": "https://mcp.na1.ironcladapp.com/mcp",
+      "title": "Ironclad",
+      "description": "Pesquise seu repositório contratual e workflows em linguagem natural — MSAs/contratos-quadro com vencimento, cláusulas de rescisão, contratos com fornecedores — restrito às suas permissões. Alternativas BR: Clicksign, D4Sign, Lawnix, Linte."
+    },
+    "DocuSign": {
+      "type": "http",
+      "url": "https://mcp.docusign.com/mcp",
+      "title": "DocuSign",
+      "description": "Busca, acompanhamento de status e fluxos de assinatura. Alternativas BR compatíveis com MP 2.200-2/2001 (ICP-Brasil) e Lei 14.063/2020: Clicksign, D4Sign, ZapSign, Autentique, Adobe Sign BR."
+    },
+    "iManage": {
+      "type": "http",
+      "url": "https://cloudimanage.com/mcp/work",
+      "title": "iManage",
+      "description": "Conteúdo iManage governado conectado ao Claude — documentos ficam no iManage, acesso baseado em permissão e auditável."
+    },
+    "TopCounsel": {
+      "type": "http",
+      "url": "https://api.techgc.co/api/mcp/topcounsel",
+      "title": "TopCounsel",
+      "description": "Recomendações de bancas externas pela L Suite — comunidade com 5.000+ in-house counsel, sentimento, rankings e evidências de expertise. Para BR, considere também rankings nacionais (Análise Advocacia 500, Chambers Brazil, Leaders League)."
+    },
+    "Definely": {
+      "type": "http",
+      "url": "https://mcp.uk.definely.com/api/proxy/core-mcp",
+      "title": "Definely",
+      "description": "Acesso vivo e determinístico à estrutura contratual — resolve definições, valida referências cruzadas, mapeia dependências, roda diffs estruturais."
+    },
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Busca mensagens, lê canais, encontra discussões no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Busca, leitura e fetch de documentos no Google Drive. Para clientes em Microsoft 365, considere conector SharePoint/OneDrive."
+    }
+  },
+  "recommendedCategories": [
+    "contract-management",
+    "e-signature",
+    "legal-document-management",
+    "email",
+    "documents",
+    "chat",
+    "contract-review",
+    "outside-counsel-network"
+  ]
+}

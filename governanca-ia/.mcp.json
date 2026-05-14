@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Buscar mensagens, ler canais, encontrar discussões no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e recuperar documentos do Google Drive."
+    },
+    "ANPD": {
+      "type": "http",
+      "url": "https://www.gov.br/anpd/pt-br",
+      "title": "ANPD",
+      "description": "Sítio da Autoridade Nacional de Proteção de Dados — Resoluções CD/ANPD, orientações, comunicados, estudos preliminares (incl. IA + LGPD), formulários. Use para consulta a fonte primária regulatória sobre LGPD e IA."
+    },
+    "CNJ": {
+      "type": "http",
+      "url": "https://www.cnj.jus.br",
+      "title": "CNJ",
+      "description": "Sítio do Conselho Nacional de Justiça — Resoluções (incl. 332/2020 e 615/2025 sobre IA no Judiciário), atos, provimentos e enunciados. Use para uso de IA pelo Judiciário."
+    },
+    "Planalto": {
+      "type": "http",
+      "url": "https://www.planalto.gov.br",
+      "title": "Planalto",
+      "description": "Repositório oficial de legislação federal — leis, decretos, medidas provisórias, código civil, CDC, LGPD, Marco Civil, Lei 9.610/98, Lei 14.811/2024. Fonte primária para texto legal vigente."
+    },
+    "Web Search": {
+      "type": "http",
+      "url": "https://websearch.example.com/mcp",
+      "title": "Web Search",
+      "description": "Busca web para benchmark global (EU AI Act, NIST AI RMF, leis estaduais EUA), tramitação do PL 2338/2023, jurisprudência recente, novos atos de ANPD/CNJ/TSE/BCB/CVM."
+    }
+  },
+  "recommendedCategories": [
+    "documents",
+    "chat",
+    "email",
+    "regulatory",
+    "search"
+  ]
+}

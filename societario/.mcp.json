@@ -1,0 +1,63 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Busca de mensagens, leitura de canais, achar discussoes no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e obter documentos do Google Drive."
+    },
+    "Box": {
+      "type": "http",
+      "url": "https://mcp.box.com/mcp",
+      "title": "Box",
+      "description": "Data room e gestao de documentos."
+    },
+    "iManage": {
+      "type": "http",
+      "url": "https://cloudimanage.com/mcp/work",
+      "title": "iManage",
+      "description": "Conteudo iManage governado conectado ao Claude — documentos permanecem no iManage, acesso controlado por permissao e auditavel."
+    },
+    "Definely": {
+      "type": "http",
+      "url": "https://mcp.uk.definely.com/api/proxy/core-mcp",
+      "title": "Definely",
+      "description": "Acesso deterministico a estrutura contratual — resolver definicoes, validar referencias cruzadas, mapear dependencias, rodar diffs estruturais."
+    },
+    "Solve Intelligence": {
+      "type": "http",
+      "url": "https://api.solveintelligence.com/mcp/",
+      "title": "Solve Intelligence",
+      "description": "Workflows de patentes — busca em literatura patentaria e nao patentaria, textos legais, normas tecnicas SEP, anterioridades, analise de reivindicacoes."
+    }
+  },
+  "recommendedCategories": [
+    "legal-document-management",
+    "virtual-data-room",
+    "contract-review",
+    "board-governance",
+    "documents",
+    "chat",
+    "email"
+  ],
+  "_notes_BR": {
+    "conectores_desejados": [
+      "CVM (Comissao de Valores Mobiliarios) — divulgacoes IPE, Formulario de Referencia, Resolucoes CVM 44/80/160",
+      "B3 — informacoes de companhias listadas, segmentos de listagem (Novo Mercado, N1/N2)",
+      "JUCESP / JUCERJA / JUCEMG e demais Juntas Comerciais — consulta a NIRE, atos arquivados (DREI IN 81/2020)",
+      "CADE — consulta de atos de concentracao e processos administrativos",
+      "Receita Federal — situacao cadastral CNPJ",
+      "Jusbrasil / LexML — pesquisa jurisprudencial",
+      "DataJud / PJe / e-SAJ / e-Proc / Projudi — consulta processual",
+      "CARF — jurisprudencia administrativa tributaria",
+      "INPI — marcas, patentes, programas de computador"
+    ],
+    "nota": "Nao ha MCPs oficiais para os orgaos brasileiros listados acima ate a presente data. Quando indisponiveis, as skills usam fallback manual (paste de fonte ou consulta direta nos sitios oficiais)."
+  }
+}

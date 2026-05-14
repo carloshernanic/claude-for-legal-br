@@ -1,0 +1,53 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Busca mensagens, lê canais, encontra discussões no seu workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Busca, lê e recupera documentos do Google Drive."
+    },
+    "WebSearch": {
+      "type": "http",
+      "url": "https://mcp.websearch.example/mcp",
+      "title": "Web Search",
+      "description": "Busca web para jurisprudência recente, novas leis, súmulas vinculantes, temas de repercussão geral STF, temas repetitivos STJ, e atualizações regulatórias (ANPD, CVM, CADE, ANATEL, ANVISA etc.)."
+    },
+    "JusBrasil": {
+      "type": "http",
+      "url": "https://mcp.jusbrasil.com.br/mcp",
+      "title": "JusBrasil",
+      "description": "Pesquisa de jurisprudência, doutrina e legislação brasileira — STF, STJ, TST, TJs, TRFs, TRTs. Verificação de citações e andamento processual. [Conectar quando MCP estiver disponível.]"
+    },
+    "Planalto": {
+      "type": "http",
+      "url": "https://mcp.planalto.gov.br/mcp",
+      "title": "Planalto (legislação)",
+      "description": "Texto oficial de leis federais, decretos, MPs, ECs — Presidência da República. Fonte primária para Vade Mecum digital. [Conectar quando MCP estiver disponível.]"
+    },
+    "STF": {
+      "type": "http",
+      "url": "https://mcp.stf.jus.br/mcp",
+      "title": "STF",
+      "description": "Jurisprudência do Supremo Tribunal Federal — ADI/ADC/ADPF/ADO, súmulas vinculantes, temas de repercussão geral, acórdãos e decisões monocráticas. [Conectar quando MCP estiver disponível.]"
+    },
+    "STJ": {
+      "type": "http",
+      "url": "https://mcp.stj.jus.br/mcp",
+      "title": "STJ",
+      "description": "Jurisprudência do Superior Tribunal de Justiça — uniformização de lei federal, súmulas, temas repetitivos. [Conectar quando MCP estiver disponível.]"
+    }
+  },
+  "recommendedCategories": [
+    "pesquisa-juridica",
+    "jurisprudencia",
+    "legislacao",
+    "documentos",
+    "chat"
+  ]
+}

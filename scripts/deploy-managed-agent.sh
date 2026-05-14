@@ -19,7 +19,7 @@ set -euo pipefail
 ROLE="${1:?usage: deploy-managed-agent.sh <slug> [--dry-run]}"
 DRY_RUN=0; [[ "${2:-}" == "--dry-run" ]] && DRY_RUN=1
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-DIR="$ROOT/managed-agent-cookbooks/$ROLE"
+DIR="$ROOT/receitas-agentes/$ROLE"
 API="${ANTHROPIC_API_BASE:-https://api.anthropic.com}"
 [[ $DRY_RUN -eq 1 ]] || : "${ANTHROPIC_API_KEY:?ANTHROPIC_API_KEY must be set}"
 

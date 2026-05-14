@@ -1,0 +1,8 @@
+{
+  "name": "regulatorio",
+  "version": "1.0.2-br",
+  "description": "Monitora DOU e feeds de agências reguladoras (ANVISA, ANEEL, ANATEL, BCB, CVM, ANPD, CADE), diffa normas novas contra sua biblioteca de políticas, acompanha prazos de consulta pública e gaps abertos, e escreve o digest que a equipe lê na segunda de manhã.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

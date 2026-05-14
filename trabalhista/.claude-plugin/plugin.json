@@ -1,0 +1,8 @@
+{
+  "name": "trabalhista",
+  "version": "1.0.2-br",
+  "description": "Revisa admissões e desligamentos com riscos da CLT e da Reforma Trabalhista, classifica vínculo (CLT vs. PJ vs. terceirização) contra o art. 3º CLT e Súmula 331 TST, monitora prazos de licenças e estabilidades, conduz investigações internas e redige políticas alinhadas a CLT, e-Social, NRs e jurisprudência TST.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

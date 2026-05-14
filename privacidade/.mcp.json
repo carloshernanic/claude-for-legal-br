@@ -1,0 +1,80 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Busca mensagens, lê canais, encontra discussões no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Pesquisa, lê e recupera documentos do Google Drive."
+    },
+    "iManage": {
+      "type": "http",
+      "url": "https://imanage.example.com/mcp",
+      "title": "iManage",
+      "description": "Gestão de documentos jurídicos (DMS). Neutro de jurisdição — útil para bancas que armazenam material de caso no iManage."
+    }
+  },
+  "recommendedSearchSources": {
+    "primary_br": [
+      {
+        "name": "ANPD",
+        "url": "https://www.gov.br/anpd/pt-br",
+        "description": "Autoridade Nacional de Proteção de Dados — Resoluções CD/ANPD, sanções, guias orientativos, RIPD."
+      },
+      {
+        "name": "Planalto",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "description": "Texto oficial da LGPD (Lei 13.709/2018) e legislação federal correlata."
+      },
+      {
+        "name": "STJ",
+        "url": "https://www.stj.jus.br",
+        "description": "Superior Tribunal de Justiça — uniformização de lei federal, incluindo casos LGPD."
+      },
+      {
+        "name": "STF",
+        "url": "https://www.stf.jus.br",
+        "description": "Supremo Tribunal Federal — proteção de dados como direito fundamental (CF art. 5º LXXIX)."
+      },
+      {
+        "name": "DOU",
+        "url": "https://www.in.gov.br",
+        "description": "Diário Oficial da União — publicação oficial de resoluções, atos administrativos e sanções."
+      },
+      {
+        "name": "JusBrasil",
+        "url": "https://www.jusbrasil.com.br",
+        "description": "Agregador de jurisprudência e doutrina brasileiras — útil para precedentes em LGPD."
+      }
+    ],
+    "sectoral_br": [
+      {
+        "name": "BCB",
+        "url": "https://www.bcb.gov.br",
+        "description": "Banco Central — Resolução BCB 4.658/2018 e normativos sobre segurança cibernética e dados em instituições financeiras."
+      },
+      {
+        "name": "ANS",
+        "url": "https://www.gov.br/ans/pt-br",
+        "description": "Agência Nacional de Saúde Suplementar — dados de beneficiários de planos de saúde."
+      },
+      {
+        "name": "CFM",
+        "url": "https://portal.cfm.org.br",
+        "description": "Conselho Federal de Medicina — Resolução CFM 1.821/2007 e sigilo médico."
+      }
+    ],
+    "us_fallback_comment": "Conectores como Westlaw, CourtListener, ou bases jurídicas dos EUA podem ser configurados como fallback para casos com elemento norte-americano (ex.: transferência internacional para EUA, controlador sediado nos EUA com titulares no BR). Em regra, NÃO usar como fonte primária para questões de LGPD — sempre cite fonte BR primária."
+  },
+  "recommendedCategories": [
+    "documents",
+    "chat",
+    "email",
+    "legal-document-management"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "propriedade-intelectual",
+  "version": "1.0.2-br",
+  "description": "Faz busca de anterioridade de marca no INPI, triagem de FTO em patente, redige e triagem de notificações extrajudiciais e pedidos de remoção via Marco Civil (Lei 12.965/2014 art. 19), checa licenças de código aberto, revisa cláusulas de PI (Lei 9.279/96, Lei 9.610/98, Lei 9.609/98) e acompanha registros e prazos de manutenção no INPI.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

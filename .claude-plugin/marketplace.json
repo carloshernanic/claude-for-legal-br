@@ -1,109 +1,109 @@
 {
-  "name": "claude-for-legal",
+  "name": "claude-for-legal-brasil",
   "owner": {
-    "name": "Anthropic"
+    "name": "Adaptação BR (não oficial Anthropic)"
   },
   "plugins": [
     {
-      "name": "commercial-legal",
-      "source": "./commercial-legal",
-      "description": "Reviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they're missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read.",
+      "name": "comercial",
+      "source": "./comercial",
+      "description": "Revisa contratos com fornecedores, NDAs e contratos SaaS contra seu playbook (lado vendedor ou comprador), monitora prazos de renovação e janelas de denúncia antes do automático, roteia escalações para o aprovador correto e transforma revisões em resumos que stakeholders de negócio leem. Calibrado para Código Civil, CDC quando aplicável e práticas de contratação brasileira.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "privacy-legal",
-      "source": "./privacy-legal",
-      "description": "Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and monitors policy drift against practice.",
+      "name": "privacidade",
+      "source": "./privacidade",
+      "description": "Triagem de atividades de tratamento de dados, geração de RIPD, revisão de contratos de tratamento (controlador/operador), atendimento a requisições de titulares dentro dos prazos da LGPD e monitoramento de drift entre política e prática. Calibrado para Lei 13.709/2018 e Resoluções CD/ANPD.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "product-legal",
-      "source": "./product-legal",
-      "description": "Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need substantiation, and flags upcoming launches that need legal eyes before anyone asks.",
+      "name": "produto",
+      "source": "./produto",
+      "description": "Revisa lançamentos de produto contra sua calibragem de risco, responde 'isso é problema?' em minutos, checa peças publicitárias quanto a alegações que precisam de comprovação (CDC arts. 36–38, CONAR) e sinaliza lançamentos próximos que precisam de revisão jurídica antes de alguém pedir.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "corporate-legal",
-      "source": "./corporate-legal",
-      "description": "Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house format, and tracks entity compliance deadlines across jurisdictions.",
+      "name": "societario",
+      "source": "./societario",
+      "description": "Roda due diligence de M&A em escala com revisão tabular citada, monta quadros de exceções e checklists de fechamento, redige atas, deliberações e atos societários em formato da casa, e acompanha obrigações societárias e regulatórias (Junta Comercial, CVM, BCB) de cada entidade.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "employment-legal",
-      "source": "./employment-legal",
-      "description": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines before they're missed, runs internal investigations, and drafts policies with state supplements where the law differs.",
+      "name": "trabalhista",
+      "source": "./trabalhista",
+      "description": "Revisa admissões e desligamentos com riscos da CLT e da Reforma Trabalhista, classifica vínculo (CLT vs. PJ vs. terceirização) contra o art. 3º CLT e Súmula 331 TST, monitora prazos de licenças e estabilidades, conduz investigações internas e redige políticas alinhadas a CLT, e-Social, NRs e jurisprudência TST.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "regulatory-legal",
-      "source": "./regulatory-legal",
-      "description": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads Monday morning.",
+      "name": "regulatorio",
+      "source": "./regulatorio",
+      "description": "Monitora DOU e feeds de agências reguladoras (ANVISA, ANEEL, ANATEL, BCB, CVM, ANPD, CADE), diffa normas novas contra sua biblioteca de políticas, acompanha prazos de consulta pública e gaps abertos, e escreve o digest que a equipe lê na segunda de manhã.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "ai-governance-legal",
-      "source": "./ai-governance-legal",
-      "description": "Triages proposed AI use cases against your registry, runs impact assessments across the regimes in scope, reviews vendor AI terms for training-on-data and liability gaps, and keeps your AI policy current with practice.",
+      "name": "governanca-ia",
+      "source": "./governanca-ia",
+      "description": "Triagem de casos de uso de IA contra seu registro, condução de avaliações de impacto (RIPD-IA), revisão de termos de fornecedores de IA quanto a treinamento com dados, responsabilidade e mudança de modelo, e atualização da política de IA contra a prática. Calibrado para LGPD art. 20, PL 2338/2023 e estudos preliminares ANPD/IA.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "litigation-legal",
-      "source": "./litigation-legal",
-      "description": "Manages the litigation portfolio — matters, deadlines, holds, demands, outside counsel — and does the work: claim charts (patent and civil), chronologies, depo prep, privilege logs, brief drafting. Adapts to how you work litigation: in-house, firm, or solo.",
+      "name": "contencioso",
+      "source": "./contencioso",
+      "description": "Gerencia o portfólio de contencioso — processos, prazos, holds, notificações, escritórios externos — e faz o trabalho: matrizes de fundamentação (causa de pedir e fundamentos), cronologias, preparação de oitivas, revisão de produção documental, redação de petições. Adapta-se a contencioso interno, banca ou advogado(a) solo, com integração a PJe/e-SAJ/e-Proc/Projudi.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "law-student",
-      "source": "./law-student",
-      "description": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study schedule — without ever writing it for you.",
+      "name": "estudante-direito",
+      "source": "./estudante-direito",
+      "description": "Treina pelo método socrático, faz fichamentos de casos e julgados (STF/STJ/TST), monta esquemas, conduz preparação para Exame de Ordem com calibração por seccional, corrige exercícios em IRAC e relatório-fundamentos-dispositivo, e planeja o cronograma — sem escrever no seu lugar.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "legal-clinic",
-      "source": "./legal-clinic",
-      "description": "Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end — built within ABA Formal Op. 512.",
+      "name": "npj",
+      "source": "./npj",
+      "description": "Estrutura o Núcleo de Prática Jurídica (NPJ), faz onboarding de estagiários, conduz intake de assistidos, controla prazos com cautela preventiva e faz handoff de casos ao fim do semestre — dentro do Provimento CFOAB 166/2015, Resolução CNE/CES 5/2018 e CED-OAB.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "legal-builder-hub",
-      "source": "./legal-builder-hub",
-      "description": "Finds, evaluates, and installs community legal skills — with a security review gate before anything lands in your environment.",
+      "name": "builder-hub",
+      "source": "./builder-hub",
+      "description": "Encontra, avalia e instala skills jurídicas da comunidade — com revisão de segurança antes de qualquer coisa entrar no seu ambiente.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
-      "name": "ip-legal",
-      "source": "./ip-legal",
-      "description": "Runs first-pass trademark clearance and freedom-to-operate triage, drafts and triages cease-and-desist letters and DMCA takedowns (send and respond), checks open source compliance, reviews IP clauses, and tracks registrations and renewal deadlines.",
+      "name": "propriedade-intelectual",
+      "source": "./propriedade-intelectual",
+      "description": "Faz busca de anterioridade de marca no INPI, triagem de FTO em patente, redige e triagem de notificações extrajudiciais e pedidos de remoção via Marco Civil (Lei 12.965/2014 art. 19), checa licenças de código aberto, revisa cláusulas de PI (Lei 9.279/96, Lei 9.610/98, Lei 9.609/98) e acompanha registros e prazos de manutenção no INPI.",
       "author": {
-        "name": "Anthropic"
+        "name": "Adaptação BR"
       }
     },
     {
       "name": "cocounsel-legal",
       "source": "./external_plugins/cocounsel-legal",
-      "description": "CoCounsel Legal delivers comprehensive Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law sources.",
+      "description": "CoCounsel Legal — relatórios Westlaw Deep Research com citações ligadas. Mantido upstream pela Thomson Reuters; cobertura primária EUA. Útil para due diligence transfronteiriça; para fontes brasileiras complemente com pesquisa em JusBrasil, Lexml, sítios STF/STJ/TST.",
       "author": {
         "name": "Thomson Reuters"
       }

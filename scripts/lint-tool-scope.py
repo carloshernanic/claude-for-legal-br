@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Apache-2.0
 """Assert orchestrator `agent.yaml` files ship with scoped tool configs.
 
-Runs over every `managed-agent-cookbooks/*/agent.yaml` and checks the
+Runs over every `receitas-agentes/*/agent.yaml` and checks the
 orchestrator's `tools:` block for the privilege-escalation gaps called out
 below — keeping write and external-channel access on the leaves, not the orchestrator:
 
@@ -26,7 +26,7 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parent.parent
-COOKBOOKS_DIR = ROOT / "managed-agent-cookbooks"
+COOKBOOKS_DIR = ROOT / "receitas-agentes"
 
 
 def _lint_one(path: Path) -> list[str]:

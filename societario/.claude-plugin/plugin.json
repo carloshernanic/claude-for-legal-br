@@ -1,0 +1,8 @@
+{
+  "name": "societario",
+  "version": "1.0.2-br",
+  "description": "Roda due diligence de M&A em escala com revisão tabular citada, monta quadros de exceções e checklists de fechamento, redige atas, deliberações e atos societários em formato da casa, e acompanha obrigações societárias e regulatórias (Junta Comercial, CVM, BCB) de cada entidade.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

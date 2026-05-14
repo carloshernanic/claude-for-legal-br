@@ -1,0 +1,8 @@
+{
+  "name": "comercial",
+  "version": "1.0.2-br",
+  "description": "Revisa contratos com fornecedores, NDAs e contratos SaaS contra seu playbook (lado vendedor ou comprador), monitora prazos de renovação e janelas de denúncia antes do automático, roteia escalações para o aprovador correto e transforma revisões em resumos que stakeholders de negócio leem. Calibrado para Código Civil, CDC quando aplicável e práticas de contratação brasileira.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

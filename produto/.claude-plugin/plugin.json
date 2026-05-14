@@ -1,0 +1,8 @@
+{
+  "name": "produto",
+  "version": "1.0.2-br",
+  "description": "Revisa lançamentos de produto contra sua calibragem de risco, responde \"isso é problema?\" em minutos, checa peças publicitárias quanto a alegações que precisam de comprovação (CDC arts. 36–38, CONAR) e sinaliza lançamentos próximos que precisam de revisão jurídica antes de alguém pedir.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

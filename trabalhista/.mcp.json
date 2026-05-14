@@ -1,0 +1,60 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Buscar mensagens, ler canais, encontrar discussões no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e obter documentos do Google Drive."
+    },
+    "TST": {
+      "type": "http",
+      "url": "https://www.tst.jus.br",
+      "title": "TST - Tribunal Superior do Trabalho",
+      "description": "Pesquisa de jurisprudência (súmulas, orientações jurisprudenciais, acórdãos) do TST."
+    },
+    "TRT": {
+      "type": "http",
+      "url": "https://www.csjt.jus.br",
+      "title": "TRT - Tribunais Regionais do Trabalho",
+      "description": "Consulta a jurisprudência regional dos TRTs via CSJT (Conselho Superior da Justiça do Trabalho)."
+    },
+    "Planalto": {
+      "type": "http",
+      "url": "https://www.planalto.gov.br",
+      "title": "Planalto - Legislação Federal",
+      "description": "Texto oficial de leis federais: CLT (DL 5.452/1943), Reforma Trabalhista (Lei 13.467/2017), Lei 8.213/91, Lei 9.029/1995, Lei 13.146/2015, Lei 14.611/2023, entre outras."
+    },
+    "gov.br/trabalho-e-previdencia": {
+      "type": "http",
+      "url": "https://www.gov.br/trabalho-e-previdencia",
+      "title": "Ministério do Trabalho e Previdência",
+      "description": "Normas Regulamentadoras (NRs), portarias da SRT, e-Social, CAGED/RAIS, Mediador (CCT/ACT registradas)."
+    },
+    "MPT": {
+      "type": "http",
+      "url": "https://www.mpt.mp.br",
+      "title": "MPT - Ministério Público do Trabalho",
+      "description": "Procedimentos preparatórios, inquéritos civis, TACs (Termos de Ajustamento de Conduta), notas técnicas."
+    },
+    "JusBrasil": {
+      "type": "http",
+      "url": "https://www.jusbrasil.com.br",
+      "title": "JusBrasil",
+      "description": "Agregador de jurisprudência (TST, TRTs, STF, STJ) e legislação — verificar contra fonte primária."
+    }
+  },
+  "recommendedCategories": [
+    "hris",
+    "documents",
+    "chat",
+    "email",
+    "esocial",
+    "ccts-acts"
+  ]
+}

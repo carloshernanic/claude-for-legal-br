@@ -1,0 +1,50 @@
+{
+  "_comment": "Registry de conectores MCP do builder-hub adaptado ao ecossistema BR. Os conectores prioritários são serviços brasileiros (Lawve AI hospedada em PT, Google Drive/Slack para integração com fluxos corporativos). Conectores futuros desejados: PJe (CNJ), DataJud (CNJ), e-SAJ (Softplan), e-Proc (TRFs), Projudi, INPI (busca.inpi.gov.br), JusBrasil, Lexml (lexml.gov.br), Planalto (planalto.gov.br), STF/STJ/TST/CNJ, CVM (in.cvm.gov.br), BCB (bcb.gov.br/estabilidadefinanceira/normativos), ANPD (anpd.gov.br), CADE, COAF, Receita Federal, Junta Comercial (JUCESP/JUCERJA/JUCEMG via DREI), gov.br Assina e e-Notariado.",
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Buscar mensagens, ler canais e localizar discussões em seu workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e baixar documentos do Google Drive."
+    },
+    "Lawve AI": {
+      "type": "http",
+      "url": "https://mcp.lawve.ai/mcp",
+      "title": "Lawve AI",
+      "description": "Biblioteca curada de skills jurídicas em PT-BR escritas por advogados(as) em exercício, jurídico interno e legaltechs (AB2L/ALAP-BR)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-skills-registry",
+    "chat",
+    "documents"
+  ],
+  "_plannedConnectors": {
+    "_comment": "Conectores planejados para integração nativa com o ecossistema jurídico BR. Cada um exige tratamento de autenticação (certificado ICP-Brasil para PJe/e-SAJ; chaves públicas para DataJud) e respeito a limites de taxa publicados pelo CNJ e tribunais.",
+    "PJe (CNJ)": "API de consulta processual unificada do CNJ — Resolução CNJ 185/2013; exige cadastro e certificado ICP-Brasil. Conector futuro para consulta de andamentos e download de peças.",
+    "DataJud (CNJ)": "Base Nacional de Dados do Poder Judiciário (datajud.cnj.jus.br) — estatísticas e metadados processuais; acesso público com chave de API.",
+    "e-SAJ (Softplan)": "Sistema usado por TJSP, TJSC, TJMS e outros — consulta processual e push; integração via webservice quando habilitado pelo tribunal.",
+    "e-Proc (TRFs)": "Sistema da Justiça Federal (TRF1–TRF6) e do TJRS/TJSC; integração via webservice com certificado ICP-Brasil.",
+    "Projudi": "Usado em alguns TJs (PR, RO, AL, RR) — integração varia por seccional.",
+    "INPI": "Consultas de marcas e patentes em busca.inpi.gov.br; INPI também oferece API REST experimental para pedidos.",
+    "JusBrasil": "Pesquisa de jurisprudência (jusbrasil.com.br) — conector comercial via API.",
+    "Lexml": "Rede de informação legislativa e jurídica do governo (lexml.gov.br) — protocolo OAI-PMH.",
+    "Planalto": "Legislação federal consolidada (planalto.gov.br) — scraping autorizado para texto consolidado.",
+    "STF / STJ / TST / CNJ": "APIs e bases de jurisprudência dos tribunais superiores (incluindo Súmulas, Temas Repetitivos e Repercussão Geral).",
+    "CVM": "Sistemas IPE/RAD em in.cvm.gov.br para fatos relevantes, DFP, ITR.",
+    "BCB": "Normativos e estabilidade financeira em bcb.gov.br/estabilidadefinanceira/normativos.",
+    "ANPD": "Resoluções e comunicações de incidente em anpd.gov.br.",
+    "CADE": "Notificações de atos de concentração e decisões em cade.gov.br.",
+    "COAF": "Comunicações PLD/FT — Resolução COAF 36/2021.",
+    "Receita Federal": "Consulta CNPJ/CPF, situação fiscal, e-CAC.",
+    "Junta Comercial (DREI/JUCESP/JUCERJA/JUCEMG etc.)": "Registro de atos societários — protocolo varia por estado.",
+    "gov.br Assina": "Assinatura eletrônica oficial — Lei 14.063/2020.",
+    "e-Notariado": "Plataforma do CNJ para atos notariais eletrônicos — Provimento CNJ 100/2020."
+  }
+}

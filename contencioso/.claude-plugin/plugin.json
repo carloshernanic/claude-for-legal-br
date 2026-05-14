@@ -1,0 +1,8 @@
+{
+  "name": "contencioso",
+  "version": "1.0.2-br",
+  "description": "Gerencia o portfólio de contencioso — processos, prazos, holds, notificações, escritórios externos — e faz o trabalho: matrizes de fundamentação (causa de pedir e fundamentos), cronologias, preparação de oitivas, revisão de produção documental, redação de petições. Adapta-se a contencioso interno, banca ou advogado(a) solo, com integração a PJe/e-SAJ/e-Proc/Projudi.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

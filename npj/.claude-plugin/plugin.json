@@ -1,0 +1,8 @@
+{
+  "name": "npj",
+  "version": "1.0.2-br",
+  "description": "Estrutura o Núcleo de Prática Jurídica (NPJ), faz onboarding de estagiários, conduz intake de assistidos, controla prazos com cautela preventiva e faz handoff de casos ao fim do semestre — dentro do Provimento CFOAB 166/2015, Resolução CNE/CES 5/2018 e CED-OAB.",
+  "author": {
+    "name": "Adaptação BR"
+  }
+}

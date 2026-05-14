@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Buscar mensagens, ler canais, encontrar discussões no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e obter documentos do Google Drive."
+    }
+  },
+  "recommendedCategories": [
+    "fontes-oficiais-br",
+    "dou-imprensa-nacional",
+    "agencias-reguladoras",
+    "planalto-legislacao",
+    "jurisprudencia-stf-stj",
+    "documentos",
+    "chat",
+    "email"
+  ],
+  "recommendedSources": [
+    "https://www.in.gov.br/ (DOU — Imprensa Nacional)",
+    "https://www.planalto.gov.br/ (Legislação federal)",
+    "https://www.gov.br/anpd/ (ANPD)",
+    "https://www.gov.br/cvm/ (CVM)",
+    "https://www.bcb.gov.br/ (Banco Central)",
+    "https://www.gov.br/cade/ (CADE)",
+    "https://www.gov.br/anvisa/ (ANVISA)",
+    "https://www.gov.br/anatel/ (ANATEL)",
+    "https://www.gov.br/ans/ (ANS)",
+    "https://www.gov.br/aneel/ (ANEEL)",
+    "https://www.gov.br/anp/ (ANP)",
+    "https://www.gov.br/antt/ (ANTT)",
+    "https://www.gov.br/anac/ (ANAC)",
+    "https://www.gov.br/ibama/ (IBAMA)",
+    "https://www.gov.br/mj/senacon/ (SENACON)",
+    "https://www.gov.br/coaf/ (COAF)",
+    "https://portal.stf.jus.br/ (STF)",
+    "https://www.stj.jus.br/ (STJ)",
+    "https://www.cnj.jus.br/ (CNJ)"
+  ]
+}

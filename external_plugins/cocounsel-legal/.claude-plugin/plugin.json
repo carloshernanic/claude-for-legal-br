@@ -1,7 +1,7 @@
 {
   "name": "cocounsel-legal",
   "version": "0.1.0",
-  "description": "CoCounsel Legal delivers comprehensive Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law sources.",
+  "description": "CoCounsel Legal — relatórios Westlaw Deep Research com citações ligadas (cobertura primária EUA). Mantido upstream pela Thomson Reuters; para fontes brasileiras complemente com JusBrasil, Lexml e sítios STF/STJ/TST.",
   "author": {
     "name": "Thomson Reuters",
     "email": "cocounselsupport@tr.com"

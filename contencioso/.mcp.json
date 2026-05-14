@@ -1,0 +1,67 @@
+{
+  "mcpServers": {
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Busca mensagens, lê canais, encontra discussões no workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Busca, leitura e download de documentos do Google Drive."
+    },
+    "PJe": {
+      "type": "http",
+      "url": "https://mcp.pje.jus.br/anthropic",
+      "title": "PJe",
+      "description": "Processo Judicial Eletrônico (CNJ) — andamento processual, peças, intimações, prazos em tribunais federais e trabalhistas (TRFs, TRTs, TST, STJ, STF). MCP de referência; pode não estar disponível ainda."
+    },
+    "e-SAJ": {
+      "type": "http",
+      "url": "https://mcp.esaj.tjsp.jus.br/anthropic",
+      "title": "e-SAJ",
+      "description": "Sistema de Automação da Justiça (Softplan) — andamento processual e peças em tribunais estaduais (TJSP, TJAC, TJAL, TJAM e outros). MCP de referência; pode não estar disponível ainda."
+    },
+    "JusBrasil": {
+      "type": "http",
+      "url": "https://mcp.jusbrasil.com.br/anthropic",
+      "title": "JusBrasil",
+      "description": "Pesquisa jurisprudencial — STF, STJ, TST, TRFs, TJs — milhões de acórdãos, súmulas, perfis de magistrados e análise de andamentos. MCP de referência; pode não estar disponível ainda."
+    },
+    "TopCounsel": {
+      "type": "http",
+      "url": "https://api.techgc.co/api/mcp/topcounsel",
+      "title": "TopCounsel",
+      "description": "Recomendações de escritórios externos por comunidade de jurídicos in-house — ranking, expertise, sentimento."
+    },
+    "Lexml": {
+      "type": "http",
+      "url": "https://mcp.lexml.gov.br/anthropic",
+      "title": "Lexml",
+      "description": "Rede de Informação Legislativa e Jurídica do Senado — busca em normas federais, estaduais e municipais com link à fonte oficial (Planalto, DOU, Diários Oficiais estaduais). MCP de referência; pode não estar disponível ainda."
+    },
+    "iManage": {
+      "type": "http",
+      "url": "https://mcp.imanage.com",
+      "title": "iManage",
+      "description": "GED / DMS jurídico — busca, leitura e perfilamento de documentos por matéria, cliente e tipo."
+    },
+    "DataJud": {
+      "type": "http",
+      "url": "https://mcp.datajud.cnj.jus.br/anthropic",
+      "title": "DataJud",
+      "description": "Base Nacional de Dados do Poder Judiciário (CNJ) — estatísticas processuais, tempo de tramitação, volumetria por classe, assunto e órgão julgador. MCP de referência; pode não estar disponível ainda."
+    }
+  },
+  "recommendedCategories": [
+    "andamento-processual",
+    "pesquisa-jurisprudencial",
+    "normas-e-legislacao",
+    "estatisticas-judiciais",
+    "rede-de-escritorios-externos",
+    "documentos",
+    "chat"
+  ]
+}

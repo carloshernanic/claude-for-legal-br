@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "INPI Busca": {
+      "type": "http",
+      "url": "https://busca.inpi.gov.br/mcp/",
+      "title": "INPI — Busca de Marcas e Patentes",
+      "description": "Buscas no INPI — marcas (LPI arts. 122–175), patentes (LPI arts. 6º–93º), desenho industrial (LPI 94–121), programa de computador (Lei 9.609/98). Acompanhamento de processos e RPI semanal."
+    },
+    "JusBrasil": {
+      "type": "http",
+      "url": "https://mcp.jusbrasil.com.br/mcp/",
+      "title": "JusBrasil",
+      "description": "Pesquisa de jurisprudência brasileira — decisões do STF, STJ, TRFs, TJs, TST e tribunais administrativos. Súmulas, repercussão geral, temas repetitivos."
+    },
+    "Planalto": {
+      "type": "http",
+      "url": "https://mcp.planalto.gov.br/mcp/",
+      "title": "Planalto — Legislação Federal",
+      "description": "Texto integral de leis federais — LPI (Lei 9.279/96), Lei de Direitos Autorais (Lei 9.610/98), Lei do Software (Lei 9.609/98), Marco Civil da Internet (Lei 12.965/2014), Código Civil, CPC. Decretos, MPs."
+    },
+    "WIPO Madrid": {
+      "type": "http",
+      "url": "https://www.wipo.int/madrid/monitor/mcp/",
+      "title": "WIPO Madrid Monitor",
+      "description": "Monitor do Protocolo de Madri — Brasil aderente desde 02/10/2019 (Decreto 10.033/2019). Acompanhamento de marcas internacionais designando o BR e marcas brasileiras designando outras jurisdições."
+    },
+    "Slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "title": "Slack",
+      "description": "Buscar mensagens, ler canais, encontrar discussões no seu workspace."
+    },
+    "Google Drive": {
+      "type": "http",
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "title": "Google Drive",
+      "description": "Buscar, ler e baixar documentos do Google Drive."
+    }
+  },
+  "recommendedCategories": [
+    "gestao-pi",
+    "pesquisa-juridica",
+    "jurisprudencia",
+    "documentos",
+    "chat",
+    "email"
+  ]
+}
